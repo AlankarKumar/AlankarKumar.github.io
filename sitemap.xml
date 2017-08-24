@@ -63,12 +63,13 @@
   </url>
   
   <url>
-    <loc>https://alankarkumar.github.io/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+    <loc>https://alankarkumar.github.io/page/about/</loc>
   </url>
   
   <url>
-    <loc>https://alankarkumar.github.io/page/about/</loc>
+    <loc>https://alankarkumar.github.io/</loc>
+    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
