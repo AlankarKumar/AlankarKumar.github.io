@@ -226,13 +226,39 @@
 
 <p>We will take a note taking application as our use case with add and delete functionalities. We won’t focus on any CSS or styling and restating we will be writing the minimum amount of code for just getting our application up and working.</p>
 
-<h4 id="what-we-do-in-this-part-of-the-tutoria">What we do in this part of the tutoria&hellip;</h4>
+<h4 id="what-we-do-in-this-part-of-the-tutorial">What we do in this part of the tutorial&hellip;</h4>
 
 <p>In this part we’ll go ahead and setup your system with the necessary tools and get the basic skeleton of our application ready with all the necessary files.</p>
 
 <h4 id="what-we-need">What we need?</h4>
 
 <p>We need to install Node/NPM.You can download Nodejs from <a href="https://nodejs.org/en/download/">here</a>. NPM is nodejs package manager and it gets installed automatically when you install Node. For more reference on how to install Node you can see the help on Node’s website.</p>
+
+<h3 id="let-s-get-started">Let’s get started…</h3>
+
+<p>We will use facebook’s <code>create-react-app</code> as a starting point as it does a lot of things which would be an overhead for this tutorial. You don’t need to install or configure tools like <strong>Webpack</strong> or <strong>Babel</strong>.
+They are preconfigured and hidden so that you can focus on the code.</p>
+
+<pre><code class="language-bash">   npm install -g create-react-app
+</code></pre>
+
+<p>The -g is to install it globally so that it is setup in the overall environment and not only in your project folder. It relieves you of the pain to install it again for each and every project that you start.
+You can find the github repo for create-react-app here.     (<a href="https://github.com/facebookincubator/create-react-app">https://github.com/facebookincubator/create-react-app</a>).</p>
+
+<p>Navigate to the path wherever you need to create your react app and type the below in your terminal
+create-react-app notes
+cd notes
+where notes is name of our application , you can vouch any other. Create-react-app creates your application folder with all necessary node modules, webpack configuration.</p>
+
+<p>Type the npm start in your terminal and you will have a browser window open with facebook’s default react app.
+We are inching closer to having our frame ready to design the app.
+We’ll do a bit of cleaning up on the default app. Navigate to the src folder and remove all the files except the index.js file. This is the top file which your app ultimately renders alongwith all your components.
+In React all the components are mounted to a div with an id. In our case this div lies in the index.html file in the public folder of your react app with id root.
+Open the index.html and get rid of
+<link rel=”shortcut icon” href=”./src/favicon.ico”></p>
+
+<p>Line in the head.
+If we draw a react-component level diagram of our application it would be fairly simple.</p>
 
       </article>
 
