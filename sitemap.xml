@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alankarkumar.github.io/post/getting-started-with-mern-stack-part-1/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alankarkumar.github.io/post/2016-03-08-code-sample/</loc>
     <lastmod>2016-03-08T00:00:00+00:00</lastmod>
   </url>
@@ -18,7 +23,7 @@
   
   <url>
     <loc>https://alankarkumar.github.io/</loc>
-    <lastmod>2016-03-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -40,6 +45,36 @@
   </url>
   
   <url>
+    <loc>https://alankarkumar.github.io/tags/express/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alankarkumar.github.io/tags/getting-started/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alankarkumar.github.io/tags/mongo/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alankarkumar.github.io/tags/node/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alankarkumar.github.io/tags/npm/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://alankarkumar.github.io/page/</loc>
     <priority>0</priority>
   </url>
@@ -52,7 +87,7 @@
   
   <url>
     <loc>https://alankarkumar.github.io/post/</loc>
-    <lastmod>2016-03-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,6 +100,12 @@
   <url>
     <loc>https://alankarkumar.github.io/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alankarkumar.github.io/tags/react/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
