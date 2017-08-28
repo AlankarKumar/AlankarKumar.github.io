@@ -270,6 +270,64 @@ If we draw a react-component level diagram of our application it would be fairly
 
 <p><img src="/img/Fig 1.jpg" alt="alt text" title="component model" /></p>
 
+<p><strong>Notebox</strong> is the <strong>parent</strong> component and renders <strong>Note</strong> which is the individual notes that user adds. So, <strong>root</strong> holds the <strong>Notebox</strong> and <strong>Notebox</strong> contains <strong>Note</strong>.</p>
+
+<p>This is the modularity that React offers which makes it very effective to build scalable UI as even the most complex of designs can be broken down into components and divided among teams.</p>
+
+<h4 id="next-up">Next Up…</h4>
+
+<p>Creation of directory structure for any project is very critical, as the size of projects increase and so do the number of imports, keeping the application scalable yet maintainable becomes very critical.
+But , 😉 here we are only concerned about getting started and the minimum amount of code required to get a working MERN stack application. So We will keep things simple.</p>
+
+<p>Create the following files in the <code>src</code> folder.</p>
+
+<ul>
+<li>index.js</li>
+<li>Note.js</li>
+<li>NoteBox.js</li>
+<li>NoteSchema.js</li>
+<li>Server.js</li>
+</ul>
+
+<p>For our database we will use <strong>MongoDB</strong> for which we have two options, either use the local machine installation or use a free hosting such as mlab. I would recommend using a local machine installation as it is generally easier to get going once you have done the setup.</p>
+
+<p>You can download mongodb from <a href="https://www.mongodb.com/">here</a>.If you are new to mongodb you might want to take a look at the documentation for basic CRUD opeartions.</p>
+
+<p>Lets setup our other dependencies.Type in the following in the console</p>
+
+<pre><code class="language-bash">   npm i axios express body-parser foreman nodemon marked mongoose –save
+</code></pre>
+
+<p>I’ll introduce these dependencies whenever put to use.</p>
+
+<p>Also let’s create a <strong>Procfile</strong> which will start our application as well as the API.We will create this <strong>Procfile</strong> in our root directory.Type the following in the file</p>
+
+<pre><code class="language-bash">   web: react-scripts start
+   api: nodemon server.js
+</code></pre>
+
+<p>Now head to the <strong>package.json</strong> file</p>
+
+<pre><code class="language-json">&quot;scripts&quot;: {
+    &quot;start&quot;: &quot;react-scripts start&quot;,
+    &quot;start-dev&quot;: &quot;nf start -p 3000&quot;,
+    &quot;build&quot;: &quot;react-scripts build&quot;,
+    &quot;test&quot;: &quot;react-scripts test --env=jsdom&quot;,
+    &quot;eject&quot;: &quot;react-scripts eject&quot;
+}
+</code></pre>
+
+<p>and add the <code>start-dev</code> and <code>start</code> as given above.</p>
+
+<p>Now when we run</p>
+
+<pre><code class="language-bash">   npm run start-dev 
+</code></pre>
+
+<p>we will start up both React App as well as the API.But wait You have nothing to render as of now. But you ‘re ready Switch to the next part of this tutorial To get started with coding your application from ground up.</p>
+
+<p>A quick word of advise, before you take up the next post I assume a little familiarity with react’s jsx syntax and the concept of components and props. Facebook React documentation is a wonderful place to learn these concepts.</p>
+
       </article>
 
       <ul class="pager blog-pager">
